@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-sudo cp -r ./setup/interfaces/ /etc/network/
+sudo cp ./setup/interfaces /etc/network/
 
 sudo apt-get install hostapd
 
